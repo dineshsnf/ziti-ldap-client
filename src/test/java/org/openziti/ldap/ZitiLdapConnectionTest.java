@@ -16,8 +16,7 @@ public class ZitiLdapConnectionTest
 {
     private static org.slf4j.Logger log = LoggerFactory.getLogger(ZitiLdapConnectionTest.class);
 
-    @Disabled
-    public void testListUsers() throws LdapException {
+    public void listUsers() throws LdapException {
 
         // should be a enrolled and valid ziti identity
         String credJson = "{\"ztAPI\":\"https://10.0.0.1:443\",\"id\":{\"key\":\"pem:-----BEGIN EC PRIVATE KEY-----\\nMIGvJiQISo=\\n-----END EC PRIVATE KEY-----\\n\",\"cert\":\"pem:-----BEGIN CERTIFICATE-----\\nMIID3jZEFQ==\\n-----END CERTIFICATE-----\\n\",\"ca\":\"pem:-----BEGIN CERTIFICATE-----\\nMIIFvNd+oI=\\n-----END CERTIFICATE-----\\n\"},\"configTypes\":null}";

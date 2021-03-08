@@ -6,7 +6,7 @@
 
   <groupId>org.openziti</groupId>
   <artifactId>ziti-ldap-client</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>ziti-ldap-client</name>
   <url>https://github.com/dineshsnf/ziti-ldap-client</url>
@@ -122,5 +122,11 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
   </build>
+
+  <distributionManagement>
+
+  </distributionManagement>
+
 </project>
